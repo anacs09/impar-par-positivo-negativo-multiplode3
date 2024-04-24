@@ -1,0 +1,18 @@
+numero = int(input("escolha um numero: "))
+
+if numero % 2 == 0:
+    print(" par")
+else:
+    print(" impar")
+
+if numero > 0:
+    print(" positivo")
+elif numero < 0:
+    print("--> negativo")
+else:
+    print(" zero")
+
+if numero  % 3 == 0:
+    print(" multiplo de 3")
+elif numero % 5 == 0:
+    print(" multiplo de 5")
